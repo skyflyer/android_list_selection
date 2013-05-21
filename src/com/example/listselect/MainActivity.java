@@ -62,6 +62,13 @@ public class MainActivity extends ListActivity implements OnClickListener {
 
 	    _button = (Button) findViewById(R.id.btnSwitch);
 	    _button.setOnClickListener(this);
+
+	    Button button2 = (Button) findViewById(R.id.btnSwitch2);
+	    button2.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				startActivity(new Intent(MainActivity.this, WorkaroundActivity.class));
+			}});
 	}
 
 	private class CustomArrayAdapter extends ArrayAdapter<String> {
