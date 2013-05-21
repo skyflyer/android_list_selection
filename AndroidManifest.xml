@@ -22,9 +22,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        <activity android:name=".NonWorkingActivity" android:label="Non working" />
-        <activity android:name=".WorkaroundActivity" android:label="Non working" />
-        </application>
+        <activity
+            android:name=".NonWorkingActivity"
+            android:label="Non working" />
+        <activity
+            android:name=".WorkaroundActivity"
+            android:label="Non working" />
+        <activity
+            android:name=".WorkaroundActivity2"
+            android:label="Non working" />
+    </application>
 
 </manifest>

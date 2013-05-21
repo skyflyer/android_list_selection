@@ -22,7 +22,15 @@
         android:layout_gravity="center_horizontal"
         android:text="Switch to workaround"
         />
-        
+    <Button 
+        android:id="@+id/btnSwitch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_gravity="center_horizontal"
+        android:text="Switch to workaround 2"
+        />
+    
     <ListView
         android:id="@android:id/list"
         android:layout_width="match_parent"
